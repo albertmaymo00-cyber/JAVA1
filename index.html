@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>DOM</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="widget-frame" id="widgetFrame">
+    <div class="frame-header" id="frameHeader">
+      <div class="badge" id="badge">JS</div>
+      <div>
+        <div class="title" id="widgetTitle">Panel de proves</div>
+        <div class="subtitle" id="widgetSubtitle">DOM básico para JS</div>
+      </div>
+    </div>
+
+    <div class="widget-inner" id="widgetInner">
+      <section class="left-col" id="leftColumn">
+        <label class="input-row" for="input1" id="row1">
+          <span class="label-text" id="label1">Entrada A</span>
+          <input id="input1" class="input-field" name="input1" type="text" placeholder="Valor A"/>
+        </label>
+
+        <label class="input-row" for="input2" id="row2">
+          <span class="label-text" id="label2">Entrada B</span>
+          <input id="input2" class="input-field" name="input2" type="text" placeholder="Valor B" />
+        </label>
+
+        <label class="input-row" for="input3" id="row3">
+          <span class="label-text" id="label3">Entrada C</span>
+          <input id="input3" class="input-field" name="input3" type="text" placeholder="Valor C"/>
+        </label>
+      </section>
+
+      <aside class="right-col" id="rightColumn">
+        <button id="runBtn" class="run-btn">Ejecutar</button>
+        
+        <button onclick="saludar()" class="run-btn">Saludar</button>
+        <button onclick="saludarPersona()" class="run-btn">Saludar Persona</button>
+        <button onclick="esParell()" class="run-btn">Es Parell?</button>
+        <button onclick="nota()" class="run-btn">Nota</button>
+        <button onclick="sumar()" class="run-btn">Sumar</button>
+        <button onclick="compteEnrera()" class="run-btn">Compte enrere</button>
+        <button onclick="deletrejar()" class="run-btn">Deletrejar</button>
+
+
+        <div class="result-box" id="resultBox">
+          <span class="result-title" id="resultLabel">Resultado</span>
+          <span id="resultSpan" class="result-value">—</span>
+        </div>
+      </aside>
+    </div>
+  </main>
+</body>
+<script src="./script.js"></script>
+
+</html>

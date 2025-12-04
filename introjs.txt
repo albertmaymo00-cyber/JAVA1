@@ -1,0 +1,6 @@
+-Return
+-Encadenament de funcions
+-DOM
+-QuerySelector
+-innerHTML, value
+-addEventListener
